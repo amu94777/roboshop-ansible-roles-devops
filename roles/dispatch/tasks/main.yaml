@@ -6,7 +6,7 @@
 - name: go
   ansible.builtin.import_role:
     name: comman
-    tasks_from: go
+    tasks_from: go-setup
 
 - name: system start
   ansible.builtin.import_role:
