@@ -16,8 +16,8 @@
 
 - name: install maven
   ansible.builtin.dnf:
-  name: maven
-  state: present
+    name: maven
+    state: present
 
 - name: install dependencies
   ansible.builtin.command: mvn clean package
