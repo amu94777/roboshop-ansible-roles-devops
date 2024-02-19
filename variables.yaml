@@ -1,1 +1,1 @@
-MONGODB_HOST= mongodb.jaya123.shop
+MONGODB_HOST= "mongodb.jaya123.shop"
