@@ -2,3 +2,13 @@
   ansible.builtin.import_role:
     name: comman
     tasks_from: app-setup
+
+- name: node js
+  ansible.builtin.import_role:
+    name: comman
+    tasks_from: nodejs  
+
+- name: mongodb setup
+  ansible.builtin.import_role:
+    name: comman
+    tasks_from: mongodb-setup
