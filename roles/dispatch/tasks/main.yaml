@@ -5,10 +5,10 @@
 
 - name: go
   ansible.builtin.import_role:
-    name: common
+    name: comman
     tasks_from: go
 
 - name: system start
   ansible.builtin.import_role:
-    name: common
+    name: comman
     tasks_from: systemd
