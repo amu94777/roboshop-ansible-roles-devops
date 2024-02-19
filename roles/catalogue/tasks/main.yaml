@@ -12,3 +12,8 @@
   ansible.builtin.import_role:
     name: comman
     tasks_from: mongodb-setup
+
+- name: systemd setup
+  ansible.builtin.import_role:
+    name: comman
+    tasks_from: systemd 
